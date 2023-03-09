@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    font-family: "Noto Sans", sans-serif;
+}
+
+header {
+    position: relative;
+    width: 1920px;
+    height: 900px;
+    float: left;
+    text-align: center;
+    background-image: url("./../images/bkg_header.jpg");
+    color: white;
+}
+
+.header__logo {
+    display: block;
+    margin: 77px auto 0 auto;
+}
+
+.header__text {
+    margin-top: 160px;
+}
+
+.header__text_string2 {
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.header__text_string3 {
+    font-weight: 400;
+    font-size: 42px;
+}
+
+.header__consult-wrapper {
+    margin-top: 109px;
+}
+
+.header__consult:hover {
+    cursor: pointer;
+    color: yellow;
+}
+
+.header__social {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 24px;
+}
