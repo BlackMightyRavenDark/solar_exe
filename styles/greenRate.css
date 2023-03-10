@@ -1,0 +1,73 @@
+ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    padding: 0;
+    list-style: none;
+}
+
+.green-rate {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.green-rate_title-margin {
+    margin: 150px 0 60px 0;
+}
+
+.green-rate__info-house {
+    display: flex;
+    gap: 40px;
+    margin-top: 125px;
+}
+
+.info-house__picture-wrapper {
+    width: 235px;
+}
+
+.info-house__picture {
+    width: 235px;
+    height: 200px;
+    background-image: url("./../images/greenrate1.jpg");
+    background-size: 100% auto;
+}
+
+.green-rate__picture-wrapper {
+    width: 600px;
+}
+
+.green-rate__card-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 84px;
+}
+
+.green-rate__card {
+    width: 230px;
+}
+
+.green-rate__card-title {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.green-rate__card-text {
+    font-size: 14px;
+}
+
+.green-rate__descr {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.green-rate__picture {
+    width: 600px;
+    height: 525px;
+    background-image: url("./../images/greenrate2.jpg");
+    background-repeat: no-repeat;
+    background-position-y: 20px;
+}
