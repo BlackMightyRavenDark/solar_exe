@@ -10,6 +10,7 @@ ul {
     display: flex;
     justify-content: space-between;
     gap: 70px;
+    padding-top: 50px;
 }
 
 .green-rate_title-margin {
