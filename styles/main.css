@@ -15,34 +15,3 @@
     font-weight: 700;
     color: rgba(134, 133, 133, 1);
 }
-
-.services {
-    display: flex;
-    justify-content: space-between;
-}
-
-.services__info {
-    width: 45%;
-}
-
-.info__block-title {
-    margin: 45px 0 15px 0;
-    font-weight: 700;
-}
-
-.services__picture {
-    width: 600px;
-    height: 670px;
-    background-image: url("./../images/services.jpg");
-    background-position-y: 60px;
-    overflow: hidden;
-    background-repeat: no-repeat;
-}
-
-p {
-    font-size: 14px;
-}
-
-.green-rate {
-    padding-top: 50px;
-}

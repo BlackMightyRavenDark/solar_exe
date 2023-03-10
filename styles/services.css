@@ -1,0 +1,30 @@
+.services {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.info__block-title {
+    margin: 45px 0 15px 0;
+    font-weight: 700;
+}
+
+.services__picture-wrapper {
+    width: 600px;
+}
+
+.services__picture {
+    width: 600px;
+    height: 670px;
+    background-image: url("./../images/services.jpg");
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+p {
+    font-size: 14px;
+}
+
+.green-rate {
+    padding-top: 50px;
+}
