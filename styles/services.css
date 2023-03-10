@@ -1,11 +1,18 @@
 .services {
     display: flex;
     justify-content: space-between;
-    gap: 40px;
+    gap: 90px;
+}
+
+.services__info-list {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 
 .info__block-title {
-    margin: 45px 0 15px 0;
+    margin-bottom: 15px;
+    font-size: 18px;
     font-weight: 700;
 }
 
